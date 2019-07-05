@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#button#&gt;: UIButton = {
+	<string>private let &lt;#button#&gt;: UIButton = {
         let b = UIButton(type: .system)
         b.setTitle("", for: .normal)
         return b
