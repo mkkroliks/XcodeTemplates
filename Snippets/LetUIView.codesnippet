@@ -10,8 +10,8 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>let &lt;#view#&gt;: UIView = {
-    let v = UIView()
-    return v
+    let view = UIView()
+    return view
 }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AEEE3442-A7C0-4A59-A36A-AECD9589F7E3</string>

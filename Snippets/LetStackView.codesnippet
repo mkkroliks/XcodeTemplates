@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>private let &lt;#stackView#&gt;: UIStackView = {
-        let s = UIStackView()
-        s.axis = .vertical
-        return s
+        let stackView = UIStackView()
+        stackView.axis = .vertical
+        return stackView
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>44995496-F2DC-4B75-9FA6-8D29F74AB75F</string>

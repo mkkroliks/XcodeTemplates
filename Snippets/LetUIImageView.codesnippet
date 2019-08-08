@@ -9,9 +9,9 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#imageView#&gt;: UIImageView = {
-        let i = UIImageView()
-        return i
+	<string>private let &lt;#imageView#&gt;: UIImageView = {
+        let imageView = UIImageView()
+        return imageView
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4F42BCDC-BAB1-40DD-9CAD-B69A7A36D857</string>

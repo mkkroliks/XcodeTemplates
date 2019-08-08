@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>let &lt;#textField#&gt;: UITextField = {
-        let t = UITextField()
-        t.placeholder = ""
-        return t
+        let textField = UITextField()
+        textField.placeholder = ""
+        return textField
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BC5A8914-DF9D-4A9E-9FB3-7F8FA45BEBCF</string>

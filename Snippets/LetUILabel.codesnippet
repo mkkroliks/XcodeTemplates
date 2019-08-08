@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    private let &lt;#titleLabel#&gt;: UILabel = {
-        let l = UILabel()
-        l.text = "&lt;#title#&gt;"
-        l.font = UIFont.systemFont(ofSize: 20)
+        let label = UILabel()
+        label.text = "&lt;#title#&gt;"
+        label.font = UIFont.systemFont(ofSize: 20)
         return l
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>

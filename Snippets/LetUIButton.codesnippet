@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>private let &lt;#button#&gt;: UIButton = {
-        let b = UIButton(type: .system)
-        b.setTitle("", for: .normal)
-        return b
+        let button = UIButton(type: .system)
+        button.setTitle("", for: .normal)
+        return button
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D0211EC7-41FB-46C2-8922-68C99C998487</string>
