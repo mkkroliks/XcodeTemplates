@@ -6,4 +6,4 @@ install:
 	cp -r $(TEMPLATES_DIR)/MVVM.xctemplate $(XCODE_TEMPLATES_DIR)
 
 uninstall:
-	rm -f $(TEMPLATES_DIR)/MVVM.xctemplate
+	rm -fr $(XCODE_TEMPLATES_DIR)/MVVM.xctemplate
