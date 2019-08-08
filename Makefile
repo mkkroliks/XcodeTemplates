@@ -17,15 +17,15 @@ install:
 	cp $(SNIPPETS_DIR)/$(SEE_ALSO_COMMENT) $(XCODE_DIR)
 
 uninstall:
-	rm -f $(SNIPPETS_DIR)/GuardLet.codesnippet 
-	rm -f $(SNIPPETS_DIR)/LetStackView.codesnippet 
-	rm -f $(SNIPPETS_DIR)/LetUIButton.codesnippet 
-	rm -f $(SNIPPETS_DIR)/LetUIImageView.codesnippet 
-	rm -f $(SNIPPETS_DIR)/LetUILabel.codesnippet 
-	rm -f $(SNIPPETS_DIR)/LetUITextField.codesnippet
-	rm -f $(SNIPPETS_DIR)/LetUIView.codesnippet
-	rm -f $(SNIPPETS_DIR)/$(MARK_COMMENT)
-	rm -f $(SNIPPETS_DIR)/$(SEE_ALSO_COMMENT)
+	rm -f $(XCODE_DIR)/GuardLet.codesnippet 
+	rm -f $(XCODE_DIR)/LetStackView.codesnippet 
+	rm -f $(XCODE_DIR)/LetUIButton.codesnippet 
+	rm -f $(XCODE_DIR)/LetUIImageView.codesnippet 
+	rm -f $(XCODE_DIR)/LetUILabel.codesnippet 
+	rm -f $(XCODE_DIR)/LetUITextField.codesnippet
+	rm -f $(XCODE_DIR)/LetUIView.codesnippet
+	rm -f $(XCODE_DIR)/$(MARK_COMMENT)
+	rm -f $(XCODE_DIR)/$(SEE_ALSO_COMMENT)
 
 update_snippets_from_xcode: 
 	cp $(XCODE_DIR)/GuardLet.codesnippet $(SNIPPETS_DIR)
