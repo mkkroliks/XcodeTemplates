@@ -13,7 +13,7 @@
         let label = UILabel()
         label.text = "&lt;#title#&gt;"
         label.font = UIFont.systemFont(ofSize: 20)
-        return l
+        return label
     }()</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>601CD72D-A527-43AB-976C-60C334E3F504</string>
