@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#textField#&gt;: UITextField = {
+	<string>private let &lt;#textField#&gt;: UITextField = {
         let textField = UITextField()
         textField.placeholder = ""
         return textField

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#view#&gt;: UIView = {
+	<string>private let &lt;#view#&gt;: UIView = {
     let view = UIView()
     return view
 }()</string>
