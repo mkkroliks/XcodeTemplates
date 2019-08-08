@@ -6,7 +6,6 @@ install:
 	cp $(SNIPPETS_DIR)/GuardLet.codesnippet $(XCODE_DIR)
 	cp $(SNIPPETS_DIR)/LetStackView.codesnippet $(XCODE_DIR)
 	cp $(SNIPPETS_DIR)/LetUIButton.codesnippet $(XCODE_DIR)
-	cp $(SNIPPETS_DIR)/LetUIButton.codesnippet $(XCODE_DIR)
 	cp $(SNIPPETS_DIR)/LetUIImageView.codesnippet $(XCODE_DIR)
 	cp $(SNIPPETS_DIR)/LetUILabel.codesnippet $(XCODE_DIR)
 	cp $(SNIPPETS_DIR)/LetUITextField.codesnippet $(XCODE_DIR)
@@ -16,8 +15,16 @@ unintall:
 	rm -f $(SNIPPETS_DIR)/GuardLet.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetStackView.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetUIButton.codesnippet 
-	rm -f $(SNIPPETS_DIR)/LetUIButton.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetUIImageView.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetUILabel.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetUITextField.codesnippet
 	rm -f $(SNIPPETS_DIR)/LetUIView.codesnippet 
+
+update_snippets_from_xcode: 
+	cp $(XCODE_DIR)/GuardLet.codesnippet $(SNIPPETS_DIR)
+	cp $(XCODE_DIR)/LetStackView.codesnippet $(SNIPPETS_DIR)
+	cp $(XCODE_DIR)/LetUIButton.codesnippet $(SNIPPETS_DIR)
+	cp $(XCODE_DIR)/LetUIImageView.codesnippet $(SNIPPETS_DIR)
+	cp $(XCODE_DIR)/LetUILabel.codesnippet $(SNIPPETS_DIR)
+	cp $(XCODE_DIR)/LetUITextField.codesnippet $(SNIPPETS_DIR)
+	cp $(XCODE_DIR)/LetUIView.codesnippet $(SNIPPETS_DIR)
