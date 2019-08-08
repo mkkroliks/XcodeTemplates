@@ -16,7 +16,7 @@ install:
 	cp $(SNIPPETS_DIR)/$(MARK_COMMENT) $(XCODE_DIR)
 	cp $(SNIPPETS_DIR)/$(SEE_ALSO_COMMENT) $(XCODE_DIR)
 
-unintall:
+uninstall:
 	rm -f $(SNIPPETS_DIR)/GuardLet.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetStackView.codesnippet 
 	rm -f $(SNIPPETS_DIR)/LetUIButton.codesnippet 
