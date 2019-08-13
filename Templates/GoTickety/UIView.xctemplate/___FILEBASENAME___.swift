@@ -1,13 +1,21 @@
 //___FILEHEADER___
+import UIKit
 
-import Foundation
-
-class ___FILEBASENAME___: <#MyPlaceholder#> {
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
+class ___FILEBASENAME___: <#View#> {
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    // MARK: Properties
+}
+
+// MARK: ViewSetupable
+
+extension ___FILEBASENAME___: ViewSetupable {
+
+    func setupViewHierarchy() {
+
+    }
+
+    func setupConstraints() {
+
+
     }
 }
